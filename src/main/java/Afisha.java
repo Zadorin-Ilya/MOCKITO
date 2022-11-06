@@ -11,6 +11,7 @@ public class Afisha {
         this.limit = limit;
     }
 
+
     public void add(String movie) {
         String[] tmp = new String[movies.length + 1];
         for (int i = 0; i < movies.length; i++) {
